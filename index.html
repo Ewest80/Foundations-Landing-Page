@@ -1,80 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
-  <title>Document</title>
-</head>
-<body>
-  <header class="bc-dark head">
-    <div>
-      <h1 class="logo">Logo</h1>
-    </div>
-    <div>
-      <nav>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Foundations Landing Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav-bar dark-color">
+        <h1 class="logo">Header Logo</h1>
         <ul>
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link two</a></li>
-          <li><a href="#">header link three</a></li>
+          <li><a href="#hero">Sign Up</a></li>
+          <li><a href="#info">Info</a></li>
+          <li><a href="#reviews">Reviews</a></li>
         </ul>
       </nav>
+      
+      <section id="hero" class="hero-section dark-color">
+        <div class="hero-left">
+          <h1 class="hero-primary-text">This website is awesome</h1>
+          <p class="hero-secondary-text">
+            This website has some subtext that goes here under the main title.  It's a smaller font and color is lower contrast.
+          </p>
+          <button class="hero-btn cta-color">Sign up</button>
+        </div>
+        <div class="hero-right">
+          <img src="images/raincoat_pug.jpg" alt="Pug in a raincoat">
+        </div>
+      </section>
+
+      <section id="info" class="info-section">
+        <h2>Some random information.</h2>
+        <div class="info-bottom">
+          <div class="info-item">
+            <img src="images/winking_dog.jpg" alt="A white dog winking">
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="info-item">
+            <img src="images/hover_dog.jpg" alt="A small dog jumping">
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="info-item">
+            <img src="images/upside_down_dog.jpg" alt="a dog laying on it's back">
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="info-item">
+            <img src="images/skipping_dog.jpg" alt="a dog jumping">
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="reviews" class="quote-section quote-color-bg">
+        <p class="quote">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit!
+        </p>
+        <p class="reviewer">-A very happy customer</p>
+      </section>
+      
+      <section class="cta-section">
+        <div class="cta-wrapper">
+          <div class="cta-left">
+            <h2>Call to action! It's time!</h2>
+            <p>
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
+          <button class="cta-button">Sign up</button>
+        </div>
+      </section>
+
+      <footer class="dark-color">
+        <p>Copyright &copy; Awesome Corp. 2022</p>
+      </footer>
     </div>
-  </header>
-  <main>
-    <section class="bc-dark section-1">
-      <div class="hero-left">
-        <h1 class="hero-mt">This website is awesome</h1>
-        <p class="hero-st">This website has some subtext that goes here under the main title.  It's a smaller font and the color is lower contrast</p>
-        <button class="cta-background" type="submit">Sign up</button>
-      </div>
-      <div class="hero-right">
-        <img src="./images/raincoat_pug.jpg" alt="black pug in a raincoat">
-      </div>
-    </section>
-    <section class="section-2">
-      <div class="info-item full-width">
-        <h2 class="info-header">Some random information.</h2>
-      </div>
-      <div class="info-item">
-        <img src="./images/winking_dog.jpg" alt="White winking dog">
-        <p>this is some subtext under an illustration or image</p>
-      </div>
-      <div class="info-item">
-        <img src="./images/upside_down_dog.jpg" alt="Upside down brown dog">
-        <p>this is some subtext under an illustration or image</p>
-      </div>
-      <div class="info-item">
-        <img src="./images/hover_dog.jpg" alt="cut dog jumping">
-        <p>this is some subtext under an illustration or image</p>
-      </div>
-      <div class="info-item">
-        <img src="./images/skipping_dog.jpg" alt="Brown dog jumping">
-        <p>this is some subtext under an illustration or image</p>
-      </div>
-    </section>
-    <section class="quote-background section-3">
-      <div class="full-width">
-        <p class="quote-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laboriosam, inventore odit minus, quam ipsum libero consequatur cupiditate at tenetur laudantium nemo quae? Magni temporibus esse at officia sapiente. Minima cupiditate aperiam reprehenderit consequatur beatae dignissimos eius perferendis nisi illum?</p>
-      </div>
-      <div class="review-author">
-        <cite>-A very happy customer</cite>
-      </div>
-    </section>
-    <section class="section-4">
-      <div>
-        <h3>Call to action! It's time!</h3>
-        <p>Sign up for our product by clicking the button right over there!</p>
-      </div>
-      <div>
-        <button class="cta-background" type="submit">Sign up</button>
-      </div>
-    </section>
-  </main>
-  <footer class="bc-dark">
-    <p>Copyright &copy; Awesome Corp 2022</p>
-  </footer>
-</body>
+  </body>
 </html>
